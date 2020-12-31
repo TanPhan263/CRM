@@ -1,0 +1,34 @@
+[req]
+default_bits = 2048
+prompt = no
+default_md = sha256
+lenh chay angular
+ng serve --ssl --ssl-cert C:\Users\tanph\Downloads\CRM-main\CRM\Angular-project\localhost.crt --ssl-key C:\Users\tanph\Downloads\CRM-main\CRM\Angular-project\localhost.key
+
+
+
+x509_extensions = v3_req
+distinguished_name = dn 
+[dn]
+C = IN
+ST = India
+L = India
+O = Localhost Org
+OU = Localhost Org Unit
+emailAddress = codepossibility@gmail.com
+CN = localhost
+[v3_req]
+subjectAltName = @alt_names
+[alt_names]
+DNS.1 = localhost
+
+openssl req -new -x509 -newkey rsa:2048 -sha256 -nodes -keyout localhost.key -days 3560 -out localhost.crt -config certificate.cnf
+C:\Users\Dai\Documents\GitHub\CRM\CRM\Angular-project\localhost.crt
+
+lenh chay angular
+ng serve --ssl --ssl-cert C:\Users\Dai\Documents\GitHub\CRM\CRM\Angular-project\localhost.crt --ssl-key C:\Users\Dai\Documents\GitHub\CRM\CRM\Angular-project\localhost.key
+
+GOOGLE
+
+450874389893-qj31is9vus3vos495jud40ubmuphnd0a.apps.googleusercontent.com
+filKvbReyQGAAJlkgmebSgsa
